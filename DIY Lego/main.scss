@@ -1,0 +1,88 @@
+$main-font-family: 'Roboto', sans-serif;
+$main-font-size: 1rem;
+
+$green: #00B300;
+$sea-green: #008080;
+$red: red;
+$yellow: #FFFF00;
+$grey: #D4D9DB;
+
+$border: solid 1px;
+$border-radius: 50px;
+$body-padding: 15px;
+
+* {
+	font-family: $main-font-family;
+	font-size: $main-font-size;
+}
+
+div .header {
+	margin-top: 0.7rem;
+}
+
+body {
+	padding: $body-padding;
+}
+
+h1 {
+	color: 
+		darken($green, 5%);
+		font-size: $main-font-size *1.5;
+}
+
+h2 {
+	color: $sea-green;
+	font-size: $main-font-size;
+}
+
+
+.positive {
+	color: $green;
+}
+
+.negative {
+	color: $red;
+}
+
+
+.fa-star {
+	color: $yellow;
+}
+
+.under-note {	
+	margin-top: 0.5rem;
+	p, b {
+		margin: 0;
+		font-size: $main-font-size - 0.2rem;
+	}
+}
+
+.stars {
+	margin-top: 0.5rem;
+}
+
+.stars p.badge.badge-pill {
+	margin-bottom: 6px;
+}
+
+.video {
+	margin-bottom: 0.3rem;
+}
+
+#tags li.badge.badge-pill{	
+    background-color: transparent;
+    border: 1px solid;
+	margin-right: 0px;
+	margin-bottom: 3px;
+	padding: 6px;
+}
+
+#tags li.badge.badge-pill.neutral{
+	border-color: $grey;
+}
+
+#tags-button {
+	color: $sea-green;
+	font-size: $main-font-size - 0.2rem;
+}
+
